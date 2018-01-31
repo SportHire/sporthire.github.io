@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sport-Hire :: Inicio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Sport-Hire" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- gallery -->
+<link type="text/css" rel="stylesheet" href="css/cm-overlay.css" />
+<!-- //gallery -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- font -->
+<link href="//fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,100i,300,300i,400,400i,500,500i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/SmoothScroll.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+</head>
+<body>
+	<!-- banner -->
+	<div class="jarallax banner">
+		<div class="wthree-different-dot">
+			<!-- header -->
+			<div class="header">
+				<div class="container">
+					<nav class="navbar navbar-default">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+						  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						  </button>
+							<div class="w3layouts-logo">
+								<h1><a href="index.html">Sport-Hire</a></h1>
+							</div>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+							<nav>
+								<ul class="nav navbar-nav">
+									<li class="active"><a href="index.html">Inicio</a></li>
+									<li><a href="#about" class="scroll">Información</a></li>
+									<li><a href="#services" class="scroll">Servicio</a></li>
+									<li><a href="#gallery" class="scroll">Galería</a></li>
+									<li><a href="#team" class="scroll">Equipo</a></li>
+									<li><a href="#mail" class="scroll">Contacto</a></li>
+								</ul>
+							</nav>
+						</div>
+						<!-- /.navbar-collapse -->
+					</nav>
+				</div>
+			</div>
+			<!-- //header -->
+			<div class="banner-top">
+				<div class="container">
+					<div class="slider">
+						<div class="callbacks_container">
+							<ul class="rslides callbacks callbacks1" id="slider4">
+								<li>	
+									<div class="banner_text">
+										<div class="agileits-star">
+											<span><i class="fa fa-star" aria-hidden="true"></i></span>
+											<span><i class="fa fa-star" aria-hidden="true"></i></span>
+											<span><i class="fa fa-star" aria-hidden="true"></i></span>
+											<span><i class="fa fa-star-half-o" aria-hidden="true"></i></span>
+										</div>
+										<h3>SPORT HIRE</h3>
+										<p>Practicar tu deporte favorito nunca ha sido tan fácil</p>
+										<div class="w3-button">
+											<a href="#" data-toggle="modal" data-target="#myModal">Leer más</a>
+										</div>
+									</div>
+								</li>
+								<li>	
+									<div class="banner_text">
+										<div class="agileits-star">
+											<span><i class="fa fa-star" aria-hidden="true"></i></span>
+											<span><i class="fa fa-star" aria-hidden="true"></i></span>
+											<span><i class="fa fa-star" aria-hidden="true"></i></span>
+											<span><i class="fa fa-star-half-o" aria-hidden="true"></i></span>
+										</div>
+										<h3>FACIL DE UTILIZAR</h3>
+										<p>Nuestra aplicación está diseñada para facilitar su uso a todos los públicos.</p>
+										<div class="w3-button">
+											<a href="#" data-toggle="modal" data-target="#myModal">Leer más</a>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<script src="js/responsiveslides.min.js"></script>
+						<script>
+							// You can also use "$(window).load(function() {"
+							$(function () {
+							  // Slideshow 4
+							  $("#slider4").responsiveSlides({
+								auto: true,
+								pager:true,
+								nav:true,
+								speed: 500,
+								namespace: "callbacks",
+								before: function () {
+								  $('.events').append("<li>before event fired.</li>");
+								},
+								after: function () {
+								  $('.events').append("<li>after event fired.</li>");
+								}
+							  });
+						
+							});
+						 </script>
+						<!--banner Slider starts Here-->
+					</div>
+				</div>
+			</div>
+			<div class="agileinfo-address">
+				<div class="container">
+					<div class="agileinfo-address-grid">
+						<ul>
+							<li><i class="fa fa-map-marker" aria-hidden="true"></i> C/ Doctor Oloriz, 18015, Granada, España.</li>
+							<li><i class="fa fa-phone" aria-hidden="true"></i> +34 666 666 666</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- modal -->
+	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<h4 class="modal-title">Sport-Hire</h4>
+				</div> 
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/1.jpg" alt="" />
+						<p>Podrás practicar cualquier deporte y gestionar la reserva de las pistas deportivas desde nuestra aplicación, solo con tu smartphone.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //modal -->
+	<!-- about -->
+	<div class="about" id="about">
+		<div class="container">
+			<div class="w3-agileits-about-grids">
+				<div class="col-md-6 agile-about-left">
+					<h2>Información</h2>
+					<h5>Podrás gestionar la reserva de las pistas deportivas desde nuestra aplicación, solo con tu smartphone.</h5>
+					<p>Suspendisse auctor urna blandit ultricies maximus. Sed accumsan auctor lacus ac mattis. Mauris at nibh purus. Nullam vulputate, urna id facilisis eleifend, nisl turpis suscipit augue, eget tincidunt velit nunc ut lectus. <span>Phasellus viverra nec augue at iaculis. Nullam scelerisque tincidunt sapien vitae sodales. Sed tristique ut nulla a ultricies. Aliquam sit amet sodales elit, et pellentesque lorem. Praesent quis nibh id arcu porta lobortis.</span> Morbi rutrum ut risus sed hendrerit. Integer laoreet odio nec nisi varius, at scelerisque nisi rhoncus.liquam libero enim, fermentum sed ligula a, finibus faucibus erat. Sed ipsum orci, rutrum eget diam ac, luctus commodo quam.</p>
+				</div>
+				<div class="col-md-6 agile-about-right">
+					<div class="agile-about-right-img1">
+						<img src="images/a1.jpg" alt="" />
+					</div>
+					<div class="agile-about-right-img2">
+						<img src="images/a2.jpg" alt="" />
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //about -->
+	<!-- services -->
+	<div class="services" id="services">
+		<div class="container">
+			<div class="w3-agile-heading">
+				<h3>Nuestros Servicios</h3>
+			</div>
+			<div class="w3ls-services-grids">
+				<div class="col-md-3 w3ls-services-left">
+					<div class="w3ls-services-left-top">
+						<i class="fa fa-user" aria-hidden="true"></i>
+						<h5>Equipamiento</h5>
+						<p>Alquiler de equipamiento deportivo.</p>
+					</div>
+					<div class="w3ls-services-left-top w3ls-services-left-top1">
+						<i class="fa fa-asterisk" aria-hidden="true"></i>
+						<h5>Sociabilidad</h5>
+						<p>Organización de partidos entre usuarios</p>
+					</div>
+				</div>
+				<div class="col-md-6 w3ls-services-middle">
+					<div class="w3ls-services-middle-img">
+						<img src="images/7.jpg" alt="" />
+					</div>
+					<div class="w3ls-services-middle-grids">
+						<div class="col-md-6 w3ls-services-middle-left">
+							<div class="w3ls-services-left-top">
+								<i class="fa fa-bell" aria-hidden="true"></i>
+								<h5>Torneos</h5>
+								<p>Creación de torneos amateur y posibilidad de unirte a los de otros usuarios</p>
+							</div>
+						</div>
+						<div class="col-md-6 w3ls-services-middle-left">
+							<div class="w3ls-services-left-top">
+								<i class="fa fa-heart" aria-hidden="true"></i>
+								<h5>Meteorología</h5>
+								<p>Clima de la zona del club deportivo.</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-3 w3ls-services-left">
+					<div class="w3ls-services-left-top">
+						<i class="fa fa-eye" aria-hidden="true"></i>
+						<h5>Tu perfil</h5>
+						<p>Personalización de perfil para poder conocer a otros usuarios</p>
+					</div>
+					<div class="w3ls-services-left-top w3ls-services-left-top1">
+						<i class="fa fa-anchor" aria-hidden="true"></i>
+						<h5>Clubes</h5>
+						<p>Autogestión, cercanía de los clientes a los servicios, etc.</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //services -->
+	<!-- gallery -->
+	<div class="gallery" id="gallery">
+		<div class="container">
+			<div class="w3-agile-heading">
+				<h3>Galería</h3>
+			</div>
+			<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+					<ul id="myTab" class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#home-main" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">Aplicación</a></li>
+					</ul>
+					<div id="myTabContent" class="tab-content">
+						<div role="tabpanel" class="tab-pane fade in active" id="home-main" aria-labelledby="home-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/2.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/img/9.jpg" alt=" " class="img-responsive" />
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/3.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/img/1.png" alt=" " class="img-responsive" />
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/4.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/img/2.png" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/5.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/img/3.png" alt=" " class="img-responsive" />
+										</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/6.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/img/4.jpg" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/7.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/img/5.jpg" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/8.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/img/6.jpg" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/9.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/img/7.jpg" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="learning" aria-labelledby="learning-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/2.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/8.png" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/3.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/9.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="playing" aria-labelledby="playing-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/4.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/4.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/5.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/5.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/6.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/6.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/7.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/7.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="painting" aria-labelledby="painting-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/8.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/8.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/9.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/9.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/2.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/2.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="school" aria-labelledby="school-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/3.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/3.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+			</div>
+			<script src="js/jquery.tools.min.js"></script>
+			<script src="js/jquery.mobile.custom.min.js"></script>
+			<script src="js/jquery.cm-overlay.js"></script>
+			<script>
+				$(document).ready(function(){
+					$('.cm-overlay').cmOverlay();
+				});
+			</script>
+		</div>
+	</div>
+	<!-- //gallery -->
+	<!-- team -->
+	<div class="jarallax team" id="team">
+		<div class="team-dot">
+			<div class="container">
+				<div class="w3-agile-heading team-heading">
+					<h3>Nuestro equipo</h3>
+					<br>
+				</div>
+
+					<div class="col-md-3 agileits-team-grid">
+						<div class="team-info">
+							<img src="images/amancio.jpg" alt="">
+							<div class="team-caption"> 
+								<h4>Sergio Portellano</h4>
+								<p>Co-founder</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-rss"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 agileits-team-grid">
+						<div class="team-info">
+							<img src="images/bertin.jpg" alt="">
+							<div class="team-caption"> 
+								<h4>Jose Luis Ramos</h4>
+								<p>Co-founder</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-rss"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 agileits-team-grid">
+						<div class="team-info">
+							<img src="images/paco.jpg" alt="">
+							<div class="team-caption"> 
+								<h4>Paco Sanz</h4>
+								<p>Secretaría</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-rss"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 agileits-team-grid">
+						<div class="team-info">
+							<img src="images/unete.jpg" alt="">
+							<div class="team-caption"> 
+								<h4>Únete a Sport-Hire!</h4>
+								<p>Envía tu curriculum</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								</ul>
+							</div>
+						</div>	
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //team -->
+	<!-- contact -->
+	<div class="contact" id="mail">
+		<div class="container">
+			<div class="w3-agile-heading">
+				<h3>Contacto</h3>
+			</div>
+			<div class="w3layouts-contact-grids">
+				<div class="col-sm-3 w3layouts-contact-grid">
+					<i class="fa fa-map" aria-hidden="true"></i>
+					<h5>Dirección</h5>
+					<p>C/ Doctor Oloriz, 18015, Granada, España.</p>
+				</div>
+				<div class="col-sm-3 w3layouts-contact-grid">
+					<i class="fa fa-phone" aria-hidden="true"></i>
+					<h5>Teléfono</h5>
+					<p>+34 666 666 666</p>
+					<p>+34 666 666 666</p>
+				</div>
+				<div class="col-sm-3 w3layouts-contact-grid">
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+					<h5>Email</h5>
+					<p><a href="mailto:info@sporthire.com"> info@sporthire.com</a></p>
+				</div>
+				<div class="col-sm-3 w3layouts-contact-grid">
+					<i class="fa fa-share-alt" aria-hidden="true"></i>
+					<h5>Social</h5>
+					<p>Contacta con nosotros</p>
+					<div class="agileinfo-social-grids">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //contact -->
+	<!-- map -->
+	<div class="map">
+		<iframe src="https://developers.google.com/maps/documentation/javascript/examples/full/style-array" allowfullscreen=""></iframe>
+	</div>
+	<!-- map -->
+	<!-- contact-form -->
+	<div class="contact-info">
+		<div class="container">
+			<div class="contact-form">
+				<form action="#" method="post">
+					<input type="text" placeholder="Nombre" required="">
+					<input type="email" placeholder="Email" required="">
+					<input type="text" placeholder="Teléfono" required="">
+					<textarea placeholder="Mensaje" required=""></textarea>
+					<input type="submit" value="ENVIAR">
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- //contact-form -->
+	<!-- newsletter -->
+	<div class="newsletter">
+		<div class="container">
+			<div class="col-sm-7 newsletter-left">
+				<h5>Suscribete a nuestra newsletter para estar al día de las novedades.</h5>
+			</div>
+			<div class="col-sm-5 newsletter-right">
+				<form action="#" method="post">
+					<input type="text" placeholder="Subscribe" name="Subscribe" required="">
+					<button class="btn1"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+				</form>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!-- //newsletter -->
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<div class="copyright">
+				<p>© 2018 Sport-Hire. Todos los derechos reservados | Design by W3layouts</a></p>
+			</div>
+		</div>
+	</footer>
+	<!-- //footer -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+<script src="js/jarallax.js"></script>
+	<script type="text/javascript">
+			/* init Jarallax */
+			$('.jarallax').jarallax({
+				speed: 0.5,
+				imgWidth: 1366,
+				imgHeight: 768
+			})
+		</script>
+</body>	
+</html>
